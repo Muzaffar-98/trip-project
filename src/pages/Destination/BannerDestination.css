@@ -1,0 +1,46 @@
+.banner-destination{
+    margin-top: 22px;
+}
+
+.banner-destination > .container-destination{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.banner-destination > .container-destination > .wrapper-destination{
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    background-image: url(./img/Destinations.gif) ;
+    background-size: cover;  
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.banner-destination > .container-destination > .wrapper-destination >.text-destination{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+>.title-destination{
+    color: white;
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+>p{
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-bottom: 60px;
+}
+}

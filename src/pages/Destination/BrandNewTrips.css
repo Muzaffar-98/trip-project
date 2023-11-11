@@ -1,0 +1,10 @@
+.brand-new-dest {
+  margin-top: 120px;
+}
+
+.brand-new-dest > .container-dest > .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+  

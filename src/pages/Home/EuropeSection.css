@@ -1,0 +1,10 @@
+.europe-cards {
+    margin-top: 120px;
+  }
+
+  
+  .europe-cards > .container > .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+  }

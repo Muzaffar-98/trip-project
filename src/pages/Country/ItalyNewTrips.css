@@ -1,0 +1,10 @@
+.brand-new {
+  margin-top: 120px;
+}
+
+.brand-new > .container > .card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+  

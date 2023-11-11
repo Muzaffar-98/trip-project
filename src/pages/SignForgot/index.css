@@ -1,0 +1,104 @@
+.logosContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    height: 50px;
+    margin-bottom: 70px;
+}
+
+
+aside {
+    background: url('./img/image.png');
+    background-size: cover;
+    background-position: center;
+    width: 47%;
+}
+
+.forgot-main {
+    width: 45%;
+    padding: 30px 70px 80px 70px;
+    margin: 0 auto;
+}
+
+.forgot-main .appLogoContainer {
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.forgot-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.forgot-main h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.forgot-main form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.forgot-main form, .forgotButton{
+    font-size: 16px;
+}
+
+.forgot-main form input, .forgotButton {
+    height: 48px;
+    width: 100%;
+}
+
+.forgot-main form input {
+    border-radius: 10px;
+    border: 2px solid #E3E7EB;
+    padding-left: 15px;
+    margin-top: 6px;
+}
+
+.forgotButton {
+    border-radius: 24px;
+    border: 1px solid #E3E7EB;
+    background-color: #4A21EF;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+
+.forgot-main p {
+    font-size: 16px;
+    text-align: left;
+    color: #5E6F7D;
+}
+
+.forgot-main p:nth-last-of-type(1) {
+    text-align: left;
+}
+
+
+.forgot-main form img {
+    position: relative;
+    bottom: 35px;
+    left: 510px;
+}
+
+p {
+    text-align: center;
+    font-weight: 400;
+}
+
+p:nth-of-type(3) span {
+    color: #4A21EF;
+}
+
+@media screen and (max-width: 680px) {
+    aside {
+        display: none;
+    }
+    .signIn-main {
+        width: 100%;
+        padding: 0;
+    }
+}

@@ -1,0 +1,36 @@
+.our-destinations{
+    margin-top: 120px;
+    background-color: #4A21EF;
+    /* height: 48px; */
+    padding: 72px 0;
+}
+
+.our-destinations>.wrap-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+>p{
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+    line-height: 24px;
+}
+>.link{
+    display: flex;
+    margin-bottom: 18px;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    padding: 12px 24px;
+    background-color: white;
+    border-radius: 24px;
+    color: #4A21EF;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;;
+}
+}

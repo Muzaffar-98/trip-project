@@ -1,0 +1,89 @@
+.topHeader {
+    background-color: #F5F7FA;
+    padding: 10px 50px;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topHeader nav {
+    width: 30%;
+}
+
+.topHeader button {
+    display: flex;
+    border: none;
+    background-color: transparent;
+    align-items: center;
+    gap: 6px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    list-style-type: none;
+}
+
+.links a{
+    color: black;
+    text-decoration: none;
+}
+
+.links a:active{
+    color:#4A21EF;
+}
+
+.bottomHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.bottomHeader div:nth-of-type(1) {
+    display: flex;
+    gap: 25px;
+}
+
+.bottomHeader div:nth-of-type(2) {
+    display: flex;
+    gap: 15px;
+}
+
+.bottomHeader button {
+    font-weight: bold;
+}
+
+.bottomHeader .rightButtons button {
+    border-radius: 24px;
+    height: 45px;
+    padding: 12px 24px;
+    font-size: 16px;
+
+}
+
+.bottomHeader .linkButtons button {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.bottomHeader .linkButtons a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.bottomHeader .rightButtons .lucky-button{
+    background-color: #4A21EF;
+    color: #FFFFFF;
+    border: none;
+}
+
+.bottomHeader .rightButtons .login-button{
+    background-color: #FFFFFF;
+    color: #4A21EF;
+    border: 1px solid #4A21EF;
+}

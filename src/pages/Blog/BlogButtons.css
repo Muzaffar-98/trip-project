@@ -1,0 +1,44 @@
+.buttons-container{
+    width: 90%;
+    margin: 22px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;        
+}
+
+.buttons-container > .violet-button{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 100px;
+    background-color: #4A21EF;
+    border: none;
+    color: white;
+}
+
+.buttons-container > .gray-button{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 12px 24px;
+    border-radius: 100px;
+    background-color: #F5F7FA;
+    border: none;
+}
+
+.buttons-container > .violet-button.active {
+    background-color: #4A21EF;
+    color: white;
+}
+
+.buttons-container > .gray-button.active {
+    background-color: #4A21EF; /* Используйте тот же цвет, что и у активной кнопки */
+    color: white;
+}
+
+

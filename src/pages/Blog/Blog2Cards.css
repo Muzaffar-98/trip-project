@@ -1,0 +1,15 @@
+.blog2 {
+  margin-top: 10px;
+}
+
+.blog2 > .container-blog2 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog2 > .container-blog2 > .cards-blog2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+  
