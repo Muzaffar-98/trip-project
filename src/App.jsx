@@ -7,9 +7,8 @@ import { FAQ } from "./pages/FAQ";
 import { Destination } from "./pages/Destination";
 import { Country } from "./pages/Country";
 import { Blog } from "./pages/Blog";
-import { SignIn } from "./pages/Sign";
-import { Password } from "./pages/SignForgot";
-import { CreateAcc } from "./pages/SignCreateAcc";
+import SignIn from "./pages/SignIn/SignInPage";
+
 
 function App() {
     return (
@@ -17,8 +16,8 @@ function App() {
             <BrowserRouter>
                 <Routes>
                     <Route path="/signIn" element={<SignIn />} />
-                    <Route path="/password" element={<Password />} />
-                    <Route path="/createAcc" element={<CreateAcc />} />
+                    <Route path="/password" element={<SignIn />} />
+                    <Route path="/createAcc" element={<SignIn />} />
                     <Route path="/" element={<Layout />}>
                         <Route index element={<Home />} />
                         <Route path="about" element={<About />} />
