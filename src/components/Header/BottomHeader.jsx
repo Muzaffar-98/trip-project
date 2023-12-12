@@ -9,9 +9,11 @@ import x_mark from "./img/x_mark.png";
 const MainHeader = () => {
   window.scrollTo({top: 0, behavior: 'smooth'});
   const [hamburgerShown, setHamburgerShown] = useState(false);
+
   const clickHandler = () => {
     setHamburgerShown(!hamburgerShown);
     document.body.classList.toggle("overflow-hidden");
+
   };
   const backClick = () => {
     setHamburgerShown(!hamburgerShown);
@@ -46,7 +48,7 @@ const MainHeader = () => {
               className={`hamburger-menu-none ${
                 hamburgerShown ? "hamburger-menu-shown" : ""} `}
             >
-              <ul className={`d-none ${hamburgerShown ? "ul-shown" : ""}`}>
+              <ul className={` ${hamburgerShown ? "ul-shown" : "d-none"}`}>
                 <li>
                   <NavLink className="link" to="/destination?sort=asc">
                     Destinations
